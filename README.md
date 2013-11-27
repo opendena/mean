@@ -25,12 +25,21 @@ $ npm install -g bower
 * Twitter Bootstrap - Defined as bower module in the [bower.json](bower.json) file.
 * UI Bootstrap - Defined as bower module in the [bower.json](bower.json) file.
 
+* Componen - From component.io, Defined as component module in the [public/component.json](public/component.json) file
+
 ## Quick Install
   The quickest way to get started with MEAN is to clone the project and utilize it like this:
 
   Install dependencies:
 
     $ npm install
+
+  Install & build component dependencies
+ 
+    $ cd public
+    $ component install
+    $ component build
+    $ cd ..
 
   We recommend using [Grunt](https://github.com/gruntjs/grunt-cli) to start the server:
 
